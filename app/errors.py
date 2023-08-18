@@ -1,4 +1,4 @@
-class NotWearingMaskError(BaseException):
+class NotWearingMaskError(Exception):
     pass
 
 
