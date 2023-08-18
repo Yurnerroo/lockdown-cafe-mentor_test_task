@@ -9,7 +9,7 @@ EVERYONE_VACCINATED_MSG = 'All friends should be vaccinated'
 
 
 def go_to_cafe(friends: list[dict], cafe: Cafe) -> str:
-    friends_without_masks = 0
+    friends_without_masks: int = 0
 
     for friend in friends:
         try:
